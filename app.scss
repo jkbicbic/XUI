@@ -1,0 +1,142 @@
+.login, .register, .settings{
+
+  width: 500px;
+
+}
+
+.post{
+
+  width: 600px;
+
+}
+
+.edit{
+
+  width: 768px;
+
+}
+
+.user-id{
+
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+
+}
+
+.user-info{
+
+  margin: 0 5px;
+
+  h5, p{
+
+    margin: 0;
+
+  }
+
+}
+
+.editor{
+
+  border-radius: 10px;
+  border: 2px dashed rgba(0,0,0,0.1);
+  padding: 10px;
+
+  label{
+
+    margin: 10px 0;
+
+  }
+
+  .page-body{
+
+    width: 100%;
+    min-height: 300px;
+
+  }
+
+}
+
+.tagsinput{
+
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &::after{
+
+    content: '';
+    display: block;
+    clear: both;
+
+  }
+
+  span{
+
+    display: block;
+    float: left;
+    background: #f4f7fc;
+    color: #0935a5;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+
+    button{
+
+      padding: 0px 0px 3px;
+      background: #1e008a;
+      color: #fff;
+      border: 0px;
+      border-radius: 100%;
+      margin: 7px;
+      height: 15px;
+      width: 15px;
+      cursor: pointer;s
+
+      &:hover{
+
+        background: #1e008a;
+
+      }
+
+    }
+
+  }
+
+  div{
+
+    float: left;
+    flex-grow: 1;
+
+    input{
+
+      border: 0px;
+      font-size: 14px;
+      width: 100%;
+      margin: 10px 0px;
+      padding: 0 10px;
+      border-radius: 5px;
+
+
+      &.error{
+
+        color: #E04E46;
+        font-weight: 800;
+
+      }
+
+    }
+
+    small{
+
+      color: #747474;
+      font-weight: 100;
+      padding: 10px 30px;
+
+    }
+
+  }
+
+}

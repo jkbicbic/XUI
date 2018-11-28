@@ -1,0 +1,57 @@
+.footer{
+
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid rgba(0,62,154,0.1);
+
+  &::after{
+
+    content: '';
+    display: block;
+    clear: both;
+
+  }
+
+  .footer__navs{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &.left{
+
+      float: left;
+
+    }
+
+    &.right{
+
+      float: right;
+
+    }
+
+    .links {
+
+      display: inline-block;
+      
+      a{
+
+        font-size: 12px;
+        display: block;
+        padding: 20px 10px;
+        color: #747474;
+
+      }
+
+      a:hover{
+
+        color: #0935a5;
+
+      }
+
+    }
+            
+
+  }
+
+}

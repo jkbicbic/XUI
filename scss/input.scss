@@ -1,0 +1,54 @@
+.input-grp{
+
+  padding: 5px 0px;
+  margin-bottom: 3px;
+
+  label{
+
+    margin: 10px 0;
+    display: block;
+    color: #747474;
+
+  }
+
+  .input__text{
+
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 3px 0;
+
+    input, select{
+
+      padding: 10px;
+      font-size: 16px;
+      width: 100%;
+      border: 0px;
+      border-radius: 5px;
+
+    }
+    
+
+  }
+
+
+  .input__button{
+
+    padding: 10px 0s;
+    margin: 10px 0;
+
+    .fit{
+
+      width: 100%;
+
+    }
+
+  }
+
+  .input__error{
+
+    padding: 5px;
+    color: #E04E46;
+
+  }
+
+}
