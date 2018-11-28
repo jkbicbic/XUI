@@ -2,25 +2,26 @@
 CSS framework for WIKIX
 #### Table of Contents
 ----
-* [Global Css (incomplete)](#Global%20CSS)
-    + [Flex Formatting](#Flex%20Formatting)
-        - [Inline Format](#Inline%20Format)
-        - [Column Format](#Column%20Format)
-    + [Float Formatting](#Float%20Formatting) 
-    + [Box Model Modifiers](#Box%20Model%20Modifiers)
+* [Global Css (incomplete)](#Global-CSS)
+    + [Flex Formatting](#Flex-Formatting)
+        - [Inline Format](#Inline-Format)
+        - [Column Format](#Column-Format)
+    + [Float Formatting](#Float-Formatting) 
+    + [Box Model Modifiers](#Box-Model-Modifiers)
     + [Divider](#Divider)
-* [Navigation Header](#Navigation%20Header)
-    + [Responsive and Mobile Sidebar](#Responsiveness%20and%20Mobile%20Sidebar)
+* [Navigation Header](#Navigation-Header)
+    + [Responsive and Mobile Sidebar](#Responsiveness-and-Mobile-Sidebar)
     + [Dropdowns](#Dropdowns)
     + [Notifications](#Notifications)
 * [Sections (incomplete)](#Sections)
 * [Card (to be improved)](#Card)
-    + [Card Images](#Card%20Images)
+    + [Card Images](#Card-Images)
 * [Images (incomplete & to be improved)](#Images)
 * [Buttons (incomplete)](#Buttons)
-* [Input Groups (incomplete)](#Inputs%20Groups)
+* [Input Groups (incomplete)](#Inputs-Groups)
     + [Input](#Input)
     + [Button](#Button)
+* [Colors (incomplete)](#Colors)
 
 # Global CSS
 ----
@@ -340,6 +341,25 @@ for client side error handling
     ...
 </div>
 ...
+```
+
+# Colors
+---
+I'm planning to centralize each color in a single `scss` located in `/scss/colors.scss`
+
+example
+```
+/* Card Color */
+
+$card-bg: #fff;
+$card-header-text: #hex;
+$card-text: #hex
+
+/* Button */
+
+$btn-default: #hex;
+$btn-text: #hex;
+
 ```
 
 
