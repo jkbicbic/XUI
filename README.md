@@ -7,7 +7,7 @@ This is an incomplete Experimental CSS Framework for WIKIX project that's not ye
 * [Getting Started](https://github.com/jkbicbic/XUI/blob/master/docs/Getting-Started.md#Getting-Started) 
     + [Npm/Nodejs](https://github.com/jkbicbic/XUI/blob/master/docs/Getting-Started.md#NPM)
     + [Webpack](https://github.com/jkbicbic/XUI/blob/master/docs/Getting-Started.md#Webpack)
-* [Global Css (incomplete)](https://github.com/jkbicbic/XUI/blob/master/docs/Global-CSS.md#Global-CSS)
+* [Global CSS (incomplete)](https://github.com/jkbicbic/XUI/blob/master/docs/Global-CSS.md#Global-CSS)
     + [Flex Formatting](https://github.com/jkbicbic/XUI/blob/master/docs/Global-CSS.md#Flex-Formatting)
         - [Inline Format](https://github.com/jkbicbic/XUI/blob/master/docs/Global-CSS.md#Inline-Format)
         - [Column Format](https://github.com/jkbicbic/XUI/blob/master/docs/Global-CSS.md#Column-Format)

@@ -11,3 +11,5 @@ example
     ...
 </section>
 ```
+
+[Prev: Navigation Header](https://github.com/jkbicbic/XUI/blob/master/docs/Navigation-Header.md#Navigation-Header) [Next: Card (to be improved)](https://github.com/jkbicbic/XUI/blob/master/docs/Card.md#Card)

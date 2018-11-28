@@ -78,3 +78,5 @@ to activate the notifications make sure that you include the `data-notif` attrib
 ...
 ```
 make sure that the `data-notif` attribute have value.
+
+[Prev: Global CSS (incomplete)](https://github.com/jkbicbic/XUI/blob/master/docs/Global-CSS.md#Global-CSS) [Next: Sections (incomplete)](https://github.com/jkbicbic/XUI/blob/master/docs/Sections.md#Sections)

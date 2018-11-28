@@ -59,3 +59,4 @@ $ webpack --watch
 
 you are good to go! you can use the classes and create new styles with `scss`
 
+[Next: Global CSS](https://github.com/jkbicbic/XUI/blob/master/docs/Global-CSS.md#Global-CSS)

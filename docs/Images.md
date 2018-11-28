@@ -19,3 +19,5 @@ example
 ```HTML
 <img class="img circle" src="#">
 ```
+
+[Prev: Card (to be improved)](https://github.com/jkbicbic/XUI/blob/master/docs/Card.md#Card) [Next: Buttons (incomplete)](https://github.com/jkbicbic/XUI/blob/master/docs/Buttons.md#Buttons)
