@@ -13,7 +13,7 @@ $ npm init
 ```
 fill the necessary fields or press `enter` if you are not sure 
 
-# Webpack
+#### Webpack
 
 To install webpack run the following commands in your shell
 
