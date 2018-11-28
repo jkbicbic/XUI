@@ -27,3 +27,4 @@ If you want images to be displayed just add the snippet below indside the `<div 
     <img src=""/>
 </div>
 ```
+[Prev: Sections (incomplete)](https://github.com/jkbicbic/XUI/blob/master/docs/Sections.md#Sections) [Next: Images (incomplete & to be improved)](https://github.com/jkbicbic/XUI/blob/master/docs/Images.md#Images)

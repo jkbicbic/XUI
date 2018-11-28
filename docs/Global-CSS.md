@@ -114,3 +114,5 @@ example
 ```HTML
 <hr class="divider"/>
 ```
+
+[Prev: Getting Started](https://github.com/jkbicbic/XUI/blob/master/docs/Getting-Started.md#Getting-Started) [Next: Navigation Header](https://github.com/jkbicbic/XUI/blob/master/docs/Navigation-Header.md#Navigation-Header)

@@ -24,3 +24,5 @@ example
 ```
 
 but if you want to change the whole design of the `button` class or any other classes, you have to change it in its respective file located in `projectname/scss`. For the comprehensive framework structure click [here](#Framework-Structure)
+
+[Prev: Colors (incomplete)](https://github.com/jkbicbic/XUI/blob/master/docs/Colors.md#Colors)

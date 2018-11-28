@@ -52,3 +52,5 @@ for client side error handling
 </div>
 ...
 ```
+
+[Prev: Buttons (incomplete)](https://github.com/jkbicbic/XUI/blob/master/docs/Buttons.md#Buttons) [Next: Colors (incomplete)](https://github.com/jkbicbic/XUI/blob/master/docs/Colors.md#Colors)
