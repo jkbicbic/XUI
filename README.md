@@ -1,6 +1,6 @@
 # XUI (Incomplete)
 
-This is an incomplete Experimental CSS Framework for WIKIX project. My goal is to make this framework a standard for all incoming projects (hopefully).
+This is an incomplete Experimental CSS Framework for WIKIX project that's not yet complete. My goal is to make this framework a standard for all incoming projects (hopefully).
 
 ### Framework Structure
 ```
@@ -57,7 +57,7 @@ In order for you to use the different `classes` of this framework, you need to h
 #### NPM
 
 to install node go to this [Site](https://nodejs.org/en/) and once installed go to your project folder and run the following commands in your shell
-```
+```SHELL
 $ npm init
 ```
 fill the necessary fields or press `enter` if you are not sure 
@@ -66,14 +66,14 @@ fill the necessary fields or press `enter` if you are not sure
 
 To install webpack run the following commands in your shell
 
-```
+```SHELL
 $ npm install webpack webpack-cli style-loader css-loader node-sass --save-dev
 ```
 Your project folder should contain `package-lock.json` and `package.json` after.
 
 Create a file called `webpack.config.json` in the root directory and copy the following snippet
 
-```
+```Javascript
 module.exports = {
   mode: 'development',
   entry: './webpack.js',
@@ -96,14 +96,14 @@ import './scss/main.scss'
 ```
 this is needed by the `webpack.config.js` then paste this `<script>` tag in your `base.html` file
 
-```
+```HTML
 <script src="/assets/webpack.bundle.js">
 ```
 
 and lastly run the following command in your shell
 
-```
-webpack --watch
+```SHELL
+$ webpack --watch
 ```
 
 you are good to go! you can use the classes and create new styles with `scss`
@@ -123,7 +123,7 @@ Add `flx` to a `<div>` tag to enable flex formatting
 If you want the childs of a div to be inline and flexible, adding `inline` class will format the child to display inline
 
 example
-```
+```HTML
 <div class="flx inline">
     <div>inline</div>
     <div>inline</div>
@@ -134,7 +134,7 @@ example
 If you want the child elements to have equal width just add the class `grow`
 
 example
-```
+```HTML
 <div class="flx inline grow">
     <div>inline</div>
     <div>inline</div>
@@ -143,7 +143,7 @@ example
 ```
 
 Or if you want an specific child to expand width based on remaining space of the container, Just add class `flx-grow` on that child
-```
+```HTML
 <div class="flx inline">
     <div class="flx-grow">inline</div>
 </div>
@@ -154,7 +154,7 @@ Or if you want an specific child to expand width based on remaining space of the
 To display the childs vertically add `column` instead of `inline`
 
 example
-```
+```HTML
 <div class="flx column">
     <div>inline</div>
     <div>inline</div>
@@ -166,7 +166,7 @@ example
 ----
 adding `floatable` to an element will make the childs float ready
 
-```
+```HTML
 <div class="floatable">
     ...
 </div>
@@ -174,7 +174,7 @@ adding `floatable` to an element will make the childs float ready
 
 to float a child element left or right just add `float--left` or `float--right` respectively
 
-```
+```HTML
 <div class="floatable">
     <div class="float--left">
         ...
@@ -194,7 +194,7 @@ applying this modifiers will alter the properties of a box model
 class `nb` will remove any existing borders of an element
 
 example
-```
+```HTML
 <div class="card nb">
     ...
 </div>
@@ -205,7 +205,7 @@ example
 class `nm` will remove any existing margins of an element
 
 example
-```
+```HTML
 <div class="card nm">
     ...
 </div>
@@ -221,7 +221,7 @@ apply class `divider` to a `<hr/>`
 
 example
 
-```
+```HTML
 <hr class="divider"/>
 ```
 
@@ -230,7 +230,7 @@ example
 use the tag `<nav>` for semantics and apply the class `nav`.
 
 example
-```
+```HTML
 <nav class="nav">
     <div class="nav__container flx inline">
       <div class="nav__brand">
@@ -262,7 +262,7 @@ example
 
 this is already responsive and will require `vue.js` handling to display the sidebar on mobile. Just add class `active` in class `nav__controls` by using `v-on:click` and `v-bind:class`. example below
 
-```
+```HTML
 ...
 <button class="nav__button" v-on:click="sidebarToggle">
     <span></span>
@@ -277,7 +277,7 @@ this is already responsive and will require `vue.js` handling to display the sid
 #### Dropdowns
 adding dropdown in header by using the structure below. Note: this dropdown only requires you to hover for displaying the menu
 
-```
+```HTML
 <li class="dropdown hl">
     <a class="notify" data-notif="5"><i class="far fa-bell"></i></a>
     <ul class="dropdown__list dropdown--right">
@@ -294,7 +294,7 @@ adding dropdown in header by using the structure below. Note: this dropdown only
 
 to activate the notifications make sure that you include the `data-notif` attribute in `<a>` tag inside `dropdown`,`link` class
 
-```
+```HTML
 ...
 <li class="dropdown hl">
     <a class="notify" data-notif="5"><i class="far fa-bell"></i></a>
@@ -309,7 +309,7 @@ make sure that the `data-notif` attribute have value.
 apply `section` class to `<section>`
 
 example
-```
+```HTML
 <section class="section">
     ...
 </section>
@@ -319,7 +319,7 @@ example
 ----
 apply the `card` class to a `<div>` tag
 
-```
+```HTML
 <div class="card">
     <div class="card__header">
         ...
@@ -337,7 +337,7 @@ apply the `card` class to a `<div>` tag
 
 If you want images to be displayed just add the snippet below indside the `<div class="card">`.
 
-```
+```HTML
 <div class="card__img">
     <img src=""/>
 </div>
@@ -349,7 +349,8 @@ If you want images to be displayed just add the snippet below indside the `<div 
 add `img` to `<img>` tag
 
 example
-```
+
+```HTML
 <img class="img" src="#">
 ```
 #### Img Circle
@@ -358,7 +359,7 @@ add `circle` together `img` class to make the image a Circle
 
 example
 
-```
+```HTML
 <img class="img circle" src="#">
 ```
 
@@ -367,13 +368,13 @@ example
 add `button` class to a `<button>` tag will format the button
 
 example
-```
+```HTML
 <button class="button">Submit</button>
 ```
 
 adding `prmry` will change the button to primary color
 
-```
+```HTML
 <button class="button prmry">Submit</button>
 ```
 
@@ -382,7 +383,7 @@ adding `prmry` will change the button to primary color
 format inputs with the following snippet
 
 example
-```
+```HTML
 <div class="input-grp">
     <label>Input Label</label>
     <div class="input__text">
@@ -398,7 +399,7 @@ example
 
 wrap the `<input>` tag width `<div class="input__text">`
 
-```
+```HTML
 ...
 <div class="input__text">
     <input type="" />
@@ -410,7 +411,7 @@ wrap the `<input>` tag width `<div class="input__text">`
 
 wrap `<button class='button'>`
 
-```
+```HTML
 ...
 <div classs="input__button">
     ...
@@ -422,7 +423,7 @@ wrap `<button class='button'>`
 
 for client side error handling
 
-```
+```HTML
 ...
 <div class="input__error">
     ...
@@ -435,7 +436,7 @@ for client side error handling
 I'm planning to centralize each color in a single `scss` located in `/scss/colors.scss`
 
 example
-```
+```CSS
 /* Card Color */
 
 $card-bg: #hex;
@@ -459,14 +460,14 @@ This means that you can override the existing styles by adding custom `classes`,
 example
 
 **index.html**
-```
+```HTML
 <button class="button prmry custom-class">
     ...
 </button>
 ```
 
 **app.scss**
-```
+```CSS
 .custom-class{
     /* properties here*/
 }
@@ -474,5 +475,16 @@ example
 
 but if you want to change the whole design of the `button` class or any other classes, you have to change it in its respective file located in `projectname/scss`. For the comprehensive framework structure click [here](#Framework-Structure)
 
-----
-author: **jkbicbic**
+
+
+
+
+
+
+
+
+
+
+
+
+
