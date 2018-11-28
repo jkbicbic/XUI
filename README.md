@@ -1,6 +1,6 @@
 # XUI (Incomplete)
 
-This is an incomplete Experimental CSS Framework for WIKIX project that's not yet complete. My goal is to make this framework a standard for all incoming projects (hopefully).
+This is an incomplete Experimental CSS Framework for WIKIX project. My goal is to make this framework a standard for all incoming projects (hopefully).
 
 ### Framework Structure
 ```
