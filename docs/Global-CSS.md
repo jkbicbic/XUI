@@ -1,8 +1,8 @@
 [Back to Table of Contents](https://github.com/jkbicbic/XUI)
 
 # Global CSS
-----
-The following classes can be applied to any elements.
+
+Global classes can be used on any elements to change its shape and look
 
 #### Flex Formatting
 ----
